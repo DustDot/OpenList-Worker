@@ -28,6 +28,18 @@
           "value": "no-cache"
         }
       ]
+    },
+    {
+      "source": "/d/*",
+      "headers": [{ "key": "Access-Control-Allow-Origin", "value": "*" }]
+    },
+    {
+      "source": "/sd/*",
+      "headers": [{ "key": "Access-Control-Allow-Origin", "value": "*" }]
+    },
+    {
+      "source": "/p/*",
+      "headers": [{ "key": "Access-Control-Allow-Origin", "value": "*" }]
     }
   ],
   "cloudFunctions": {
